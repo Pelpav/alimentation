@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2024-07-16T13:01:18.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 OPR/111.0.0.0" version="24.6.5" etag="mnVegvv32spHTrSJQ34P" type="github">
+  <diagram name="Page-1" id="xZemyqFq9jaBvlqrvkYF">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Utilisateur" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry width="150" height="678" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="ApplicationNextJS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="280" width="150" height="678" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="FirebaseFirestore" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="537" width="150" height="678" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="ServeurMail" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" vertex="1" parent="1">
+          <mxGeometry x="737" width="150" height="678" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="alt" style="shape=umlFrame;dashed=1;pointerEvents=0;dropTarget=0;strokeColor=#B3B3B3;height=20;width=30" vertex="1" parent="1">
+          <mxGeometry x="64" y="283" width="759" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="[Utilisateur inscrit avec succès]" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="6">
+          <mxGeometry x="30" width="729" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="[Erreur enregistrement étudiant]" style="shape=line;dashed=1;whiteSpace=wrap;verticalAlign=top;labelPosition=center;verticalLabelPosition=middle;align=center;strokeColor=#B3B3B3;" vertex="1" parent="6">
+          <mxGeometry y="207" width="759" height="7" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Inscrivez-moi!" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="2" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="224" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" value="Sauvegarder infos étudiant" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="3" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="492" y="159" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="Confirmation sauvegarde" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="4" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="495" y="211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="Redirection page confirmation" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="227" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="EnvoiMailConfirmation()" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" edge="1" parent="1" source="3" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="592" y="361" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Confirmation envoi mail" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="5" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="595" y="413" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Email de confirmation envoyé" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="227" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Erreur lors de l&#39;inscription" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;" edge="1" parent="1" source="3" target="2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="227" y="563" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
